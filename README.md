@@ -17,7 +17,7 @@
 <br/>
 <br/>
   
-### 2.a. Créer une classe *MockMovieService* implémente l'interface *IMovieService*
+### 2.a. Créer une classe *MockMovieService* qui implémente l'interface *IMovieService*
 
 <br/>
 <br/>
@@ -30,19 +30,17 @@
 <br/>
 
 ### 4.a. Ajouter ce service dans le mécanisme d'injection d'Angular avec le décorateur *@Injectable({ providedIn: 'root' })* en cas de création manuelle
+
 <br/>
 <br/>
 
 ### 4.b. Ajouter ce service dans le mécanisme d'injection d'Angular avec l'ajout du service dans *providers: []*
 
-<br/>
-<br/>
-
 
 >Enregistrer ce service, soit en l’ajoutant aux providers d’un composant, ou aux
-providers du module, ou, à partir d’Angular 6.0, en utilisant providedIn dans @Injectable() comme
-ci-dessus.
-root indique que le service disponible via toute l'application
+>providers du module, ou, à partir d’Angular 6.0, en utilisant providedIn dans @Injectable() comme
+>ci-dessus.
+>root indique que le service disponible via toute l'application
 >
 
 >On peut manipuler la déclaration du provider pour utiliser un vrai *MovieService* ou un mock *MockMovieService* 
