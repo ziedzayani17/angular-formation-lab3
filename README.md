@@ -8,21 +8,24 @@
 
 ## _prérequis :_
 
-- Récuperer le code du LAB1 (https://github.com/ziedzayani17/angular-formation-lab2.git)
+- Récuperer le code du LAB2 (https://github.com/ziedzayani17/angular-formation-lab2.git)
 <br/>
 <br/>
 
 ### 1. Créer une interface *IMovieService* avec une méthode *getMovies()*
+
 <br/>
 <br/>
   
 ### 2.a. Créer une classe *MockMovieService* implémente l'interface *IMovieService*
+
 <br/>
 <br/>
 
 ### 2.b créer le service avec angular cli *ng generate service services/movie*
 
 ### 3. Implémenter la méthode *getMovies()* pour retourner la liste des films statique existe déja dans le composant
+
 <br/>
 <br/>
 
@@ -31,6 +34,7 @@
 <br/>
 
 ### 4.b. Ajouter ce service dans le mécanisme d'injection d'Angular avec l'ajout du service dans *providers: []*
+
 <br/>
 <br/>
 
