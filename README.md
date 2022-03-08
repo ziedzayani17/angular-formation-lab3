@@ -17,7 +17,7 @@
 <br/>
 <br/>
   
-### 2.a. Créer une classe *MockMovieService* qui implémente l'interface *IMovieService*
+### 2.a. Créer une classe *MockMovieService* qui implémente l'interface *IMovieService* (juste pour montrer les interface, ce n'est pas le cas pour  le service dans un vrai projet)
 
 <br/>
 <br/>
@@ -34,7 +34,7 @@
 <br/>
 <br/>
 
-### 4.b. Ajouter ce service dans le mécanisme d'injection d'Angular avec l'ajout du service dans *providers: []*
+### 4.b. Ajouter ce service dans le mécanisme d'injection d'Angular avec l'ajout du service dans *providers: []* (pas conseiller avec le mecanisme de treeshaking de IVY)
 
 
 >Enregistrer ce service, soit en l’ajoutant aux providers d’un composant, ou aux
